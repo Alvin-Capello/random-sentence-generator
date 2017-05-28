@@ -1,5 +1,5 @@
 # random-sentence-generator
-A simple random sentence generator based on parsing trees written n JavaScript.
+A simple random sentence generator based on parsing trees written in JavaScript.
 
 
 var r = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
