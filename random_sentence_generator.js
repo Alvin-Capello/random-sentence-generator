@@ -1,3 +1,4 @@
+$(document).ready(function () {
 var r = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
 
 var names = ["Tommy", "Joseph", "Derrick", "Brandon"];
@@ -32,3 +33,4 @@ function randomGenerator() {
 }
 
 document.write(randomGenerator());
+});
