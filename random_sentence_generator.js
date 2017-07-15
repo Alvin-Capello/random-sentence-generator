@@ -28,9 +28,10 @@ var syn5 = [D, " ", ADJ, " ", N1, " ", IV, " ", ADV, "."];
 var sentence_forms = [syn1, syn2, syn3, syn4, syn5];
 var random_sentence = sentence_forms[r];
 
-function randomGenerator() {
-    return random_sentence.join(" ");
-}
+var result = random_sentence.join('');
+ 
+$("#bttn").on("click", function() {
+  $("#sentenceHere").html(result);
+});   
 
-document.write(randomGenerator());
 });
